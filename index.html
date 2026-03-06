@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sticker World</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+font-family: Arial;
+background:#f5f5f5;
+text-align:center;
+margin:0;
+}
+
+header{
+background:#ff4d6d;
+color:white;
+padding:20px;
+font-size:28px;
+}
+
+.container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:20px;
+padding:20px;
+}
+
+.sticker{
+background:white;
+border-radius:10px;
+padding:15px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.sticker img{
+width:100%;
+border-radius:8px;
+}
+
+button{
+background:#ff4d6d;
+border:none;
+color:white;
+padding:8px 15px;
+border-radius:5px;
+cursor:pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+🌸 Sticker World
+</header>
+
+<div class="container">
+
+<div class="sticker">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tulip_-_floriade_canberra.jpg/320px-Tulip_-_floriade_canberra.jpg">
+<h3>Flower Sticker</h3>
+<button>Download</button>
+</div>
+
+<div class="sticker">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cat_poster_1.jpg/320px-Cat_poster_1.jpg">
+<h3>Cat Sticker</h3>
+<button>Download</button>
+</div>
+
+<div class="sticker">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Blue_Rose.jpg/320px-Blue_Rose.jpg">
+<h3>Rose Sticker</h3>
+<button>Download</button>
+</div>
+
+</div>
+
+</body>
+</html>
